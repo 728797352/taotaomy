@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 public class UserController {
-    @Reference
+    //@Reference
     UserService UserService;
     @RequestMapping("save")
     public String save(){
